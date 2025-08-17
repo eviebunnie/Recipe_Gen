@@ -1,0 +1,4 @@
+const recipes = ["Spaghetti Carbonara", "Chicken Stir Fry", "Vegetable Curry", "Beef Tacos", "Pancakes with Syrup"];
+
+document.getElementById("recipeBtn").onclick = () =>
+  document.getElementById("recipeDisplay").textContent = recipes[Math.floor(Math.random() * recipes.length)];
